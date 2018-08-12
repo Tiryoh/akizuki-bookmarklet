@@ -22,8 +22,15 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.rawgit.
 
 ![](./images/popup_block.png)
 
+
 ## 動作確認環境
 
 * Google Chrome
   * Windows
     * 68.0.3440.106（Official Build） （64 ビット）
+
+
+## 関連するかもしれないサービス
+
+秋月で買える電子部品でリスト作成して色々できるサービスを作った : Eleclog.
+[http://eleclog.quitsq.com/2016/06/akicart.html](http://eleclog.quitsq.com/2016/06/akicart.html)
