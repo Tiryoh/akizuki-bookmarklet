@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## セットアップ方法
 
-You can use the [editor on GitHub](https://github.com/Tiryoh/akizuki-bookmarklet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+以下のリンクをブックマークレットとしてブックマークタブに追加してください。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[akizuki-bookmarklet](javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.rawgit.com/Tiryoh/akizuki-bookmarklet/master/akizuki-bookmarklet-get-name-code-price.min.js';d.getElementsByTagName('head')[0].appendChild(s);})(document);)
 
-### Markdown
+中身：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.rawgit.com/Tiryoh/akizuki-bookmarklet/master/akizuki-bookmarklet-get-name-code-price.min.js';d.getElementsByTagName('head')[0].appendChild(s);})(document);
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 使い方
 
-### Jekyll Themes
+秋月電子通商で商品情報を取得したい商品ページを開き、ブックマークレットを実行してください。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tiryoh/akizuki-bookmarklet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/diknfqoc0zI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Support or Contact
+[ポップアップがブロック](https://support.google.com/chrome/answer/9547)されることがあります。そのときは許可してください。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](https:///docs/images/popup_block.png)
+
+## 動作確認環境
+
+* Google Chrome
+  * Windows
+    * 68.0.3440.106（Official Build） （64 ビット）

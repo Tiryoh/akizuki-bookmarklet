@@ -7,7 +7,7 @@
         try{
             var arr = document.getElementsByClassName("order_g")[0].children[2].children[0].children[0].children[0].children[1].innerText.substr(1).match(/\d/g);
         } catch(e) {
-            window.alert("akizuki-bookmarklet parse error\nhttps://tiryoh.github.io/akizuki-bookmarklet\nこのブックマークレットに関する秋月電子通商さんへのお問い合わせは控えてください。\n\nerror:"+e);
+            window.alert("akizuki-bookmarklet v0.0.1 parse error\nhttps://tiryoh.github.io/akizuki-bookmarklet\nこのブックマークレットに関する秋月電子通商さんへのお問い合わせは控えてください。\n\nerror:"+e);
         }
         var price = "";
         for (var i = 0, len = arr.length; i < len; i++){
