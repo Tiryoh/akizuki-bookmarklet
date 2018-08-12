@@ -18,7 +18,7 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.rawgit.
 
 [ポップアップがブロック](https://support.google.com/chrome/answer/9547)されることがあります。そのときは許可してください。
 
-![](https:///docs/images/popup_block.png)
+![](./docs/images/popup_block.png)
 
 ## 動作確認環境
 
