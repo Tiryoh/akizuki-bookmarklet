@@ -13,9 +13,9 @@
         for (var i = 0, len = arr.length; i < len; i++){
             price += arr[i];
         }
-	    var contents=document.title.substr(0,document.title.lastIndexOf(": "))+"\t"+location.href.match(/[A-Z]-\d{5}/g)+"\t"+price+"\n";
+        var contents=document.title.substr(0,document.title.lastIndexOf(": "))+"\t"+location.href.match(/[A-Z]-\d{5}/g)+"\t"+price;
         var d=window.open(null,null,'width=700,height=300,menubar=no,toolbar=no,scrollbars=yes').document;
         d.writeln('<html><script>function copy() { let textarea = document.getElementById("textarea"); textarea.select(); document.execCommand("copy");window.close();}</script><body><textarea id="textarea" rows=15 cols=80>'+contents+'</textarea><br><button onclick="copy()">copy to clipboard</button></body></html>');
         d.close()
-	}
+    }
 )();
